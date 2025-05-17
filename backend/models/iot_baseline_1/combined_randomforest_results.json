@@ -1,0 +1,120 @@
+{
+    "scene": "物联网",
+    "dataset": "BoT-IoT",
+    "models": {
+        "Random Forest": {
+            "without_rules": {
+                "Accuracy": 0.7790249035426167,
+                "precision": 0.7874822539510311,
+                "recall": 0.7790249035426167,
+                "f1-score": 0.777387662883099,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 3953,
+                        "TN": 4931,
+                        "FP": 771,
+                        "FN": 1749
+                    },
+                    "Class 1": {
+                        "TP": 4931,
+                        "TN": 3953,
+                        "FP": 1749,
+                        "FN": 771
+                    }
+                },
+                "Total Execution Time": "0.54 seconds"
+            },
+            "with_rules": {
+                "Accuracy": 0.9866713433882848,
+                "precision": 0.9868591820496205,
+                "recall": 0.9866713433882848,
+                "f1-score": 0.986670057657925,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 5682,
+                        "TN": 5570,
+                        "FP": 132,
+                        "FN": 20
+                    },
+                    "Class 1": {
+                        "TP": 5570,
+                        "TN": 5682,
+                        "FP": 20,
+                        "FN": 132
+                    }
+                },
+                "Total Execution Time": "0.49 seconds"
+            }
+        },
+        "XGBoost": {
+            "without_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            },
+            "with_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            }
+        }
+    },
+    "positive_negative_counts": {
+        "positive_samples": {
+            "Random Forest": {
+                "without_rules": 4931,
+                "with_rules": 5570
+            },
+            "XGBoost": {
+                "without_rules": 0,
+                "with_rules": 0
+            }
+        },
+        "negative_samples": {
+            "Random Forest": {
+                "without_rules": 4931,
+                "with_rules": 5570
+            },
+            "XGBoost": {
+                "without_rules": 0,
+                "with_rules": 0
+            }
+        }
+    }
+}

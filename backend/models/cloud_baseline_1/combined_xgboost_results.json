@@ -1,0 +1,120 @@
+{
+    "scene": "车联网",
+    "dataset": "IDS2012",
+    "models": {
+        "Random Forest": {
+            "without_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            },
+            "with_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            }
+        },
+        "XGBoost": {
+            "without_rules": {
+                "Accuracy": 0.8789173789173789,
+                "precision": 0.8871833767549181,
+                "recall": 0.878917378917379,
+                "f1-score": 0.8782676614270282,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 4678,
+                        "TN": 3960,
+                        "FP": 954,
+                        "FN": 236
+                    },
+                    "Class 1": {
+                        "TP": 3960,
+                        "TN": 4678,
+                        "FP": 236,
+                        "FN": 954
+                    }
+                },
+                "Total Execution Time": "0.00 seconds"
+            },
+            "with_rules": {
+                "Accuracy": 0.9994912494912495,
+                "precision": 0.9994917666192316,
+                "recall": 0.9994912494912496,
+                "f1-score": 0.999491249359571,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 4914,
+                        "TN": 4909,
+                        "FP": 5,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 4909,
+                        "TN": 4914,
+                        "FP": 0,
+                        "FN": 5
+                    }
+                },
+                "Total Execution Time": "0.00 seconds"
+            }
+        }
+    },
+    "positive_negative_counts": {
+        "positive_samples": {
+            "Random Forest": {
+                "without_rules": 0,
+                "with_rules": 0
+            },
+            "XGBoost": {
+                "without_rules": 3960,
+                "with_rules": 4909
+            }
+        },
+        "negative_samples": {
+            "Random Forest": {
+                "without_rules": 0,
+                "with_rules": 0
+            },
+            "XGBoost": {
+                "without_rules": 3960,
+                "with_rules": 4909
+            }
+        }
+    }
+}

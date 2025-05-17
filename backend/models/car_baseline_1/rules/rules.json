@@ -1,0 +1,1362 @@
+{
+  "scene": "car",
+    "dataset": "car_baseline_1",
+    "rules_information": {
+        "number_of_rules": 26,
+        "number_of_features": 11,
+        "detailed_rules": [
+            {
+                "cluster": 0,
+                "conditions": {
+                    "Timestamp": [
+                        0.0,
+                        1.0
+                    ],
+                    "Arbitration_ID": [
+                        0.0,
+                        0.9302
+                    ],
+                    "DLC": [
+                        -0.001,
+                        0.001
+                    ],
+                    "Data0": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data1": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data2": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data3": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data4": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data5": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data6": [
+                        0.0,
+                        1.0
+                    ],
+                    "Data7": [
+                        0.0,
+                        1.0
+                    ]
+                },
+                "rule_display": "If x1 in [0.0, 1.0] AND x2 in [0.0, 0.9302] AND x3 in [-0.001, 0.001] AND x4 in [0.0, 1.0] AND x5 in [0.0, 1.0] AND x6 in [0.0, 1.0] AND x7 in [0.0, 1.0] AND x8 in [0.0, 1.0] AND x9 in [0.0, 1.0] AND x10 in [0.0, 1.0] AND x11 in [0.0, 1.0] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 1,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0186,
+                        1.0282
+                    ],
+                    "Arbitration_ID": [
+                        -0.0138,
+                        0.9466
+                    ],
+                    "DLC": [
+                        -0.0511,
+                        0.0926
+                    ],
+                    "Data0": [
+                        -0.0837,
+                        1.0186
+                    ],
+                    "Data1": [
+                        -0.0414,
+                        1.0596
+                    ],
+                    "Data2": [
+                        -0.0328,
+                        1.0276
+                    ],
+                    "Data3": [
+                        -0.0713,
+                        1.0527
+                    ],
+                    "Data4": [
+                        -0.049,
+                        1.0477
+                    ],
+                    "Data5": [
+                        -0.0856,
+                        1.0966
+                    ],
+                    "Data6": [
+                        -0.0722,
+                        1.0198
+                    ],
+                    "Data7": [
+                        -0.0615,
+                        1.0796
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0186, 1.0282] AND x2 in [-0.0138, 0.9466] AND x3 in [-0.0511, 0.0926] AND x4 in [-0.0837, 1.0186] AND x5 in [-0.0414, 1.0596] AND x6 in [-0.0328, 1.0276] AND x7 in [-0.0713, 1.0527] AND x8 in [-0.049, 1.0477] AND x9 in [-0.0856, 1.0966] AND x10 in [-0.0722, 1.0198] AND x11 in [-0.0615, 1.0796] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 2,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0158,
+                        1.0105
+                    ],
+                    "Arbitration_ID": [
+                        -0.0913,
+                        0.9459
+                    ],
+                    "DLC": [
+                        -0.0704,
+                        0.0158
+                    ],
+                    "Data0": [
+                        -0.0302,
+                        1.0861
+                    ],
+                    "Data1": [
+                        -0.0383,
+                        1.0609
+                    ],
+                    "Data2": [
+                        -0.0278,
+                        1.0452
+                    ],
+                    "Data3": [
+                        -0.0872,
+                        1.0436
+                    ],
+                    "Data4": [
+                        -0.0356,
+                        1.0162
+                    ],
+                    "Data5": [
+                        -0.0803,
+                        1.0683
+                    ],
+                    "Data6": [
+                        -0.0109,
+                        1.0865
+                    ],
+                    "Data7": [
+                        -0.0912,
+                        1.0999
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0158, 1.0105] AND x2 in [-0.0913, 0.9459] AND x3 in [-0.0704, 0.0158] AND x4 in [-0.0302, 1.0861] AND x5 in [-0.0383, 1.0609] AND x6 in [-0.0278, 1.0452] AND x7 in [-0.0872, 1.0436] AND x8 in [-0.0356, 1.0162] AND x9 in [-0.0803, 1.0683] AND x10 in [-0.0109, 1.0865] AND x11 in [-0.0912, 1.0999] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 3,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0541,
+                        1.0294
+                    ],
+                    "Arbitration_ID": [
+                        -0.0663,
+                        0.9754
+                    ],
+                    "DLC": [
+                        -0.0642,
+                        0.0723
+                    ],
+                    "Data0": [
+                        -0.0406,
+                        1.0276
+                    ],
+                    "Data1": [
+                        -0.0833,
+                        1.0949
+                    ],
+                    "Data2": [
+                        -0.0912,
+                        1.0313
+                    ],
+                    "Data3": [
+                        -0.063,
+                        1.0858
+                    ],
+                    "Data4": [
+                        -0.0253,
+                        1.0991
+                    ],
+                    "Data5": [
+                        -0.0763,
+                        1.0226
+                    ],
+                    "Data6": [
+                        -0.0364,
+                        1.0298
+                    ],
+                    "Data7": [
+                        -0.0994,
+                        1.0366
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0541, 1.0294] AND x2 in [-0.0663, 0.9754] AND x3 in [-0.0642, 0.0723] AND x4 in [-0.0406, 1.0276] AND x5 in [-0.0833, 1.0949] AND x6 in [-0.0912, 1.0313] AND x7 in [-0.063, 1.0858] AND x8 in [-0.0253, 1.0991] AND x9 in [-0.0763, 1.0226] AND x10 in [-0.0364, 1.0298] AND x11 in [-0.0994, 1.0366] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 4,
+                "conditions": {
+                    "Timestamp": [
+                        -0.023,
+                        1.058
+                    ],
+                    "Arbitration_ID": [
+                        -0.0867,
+                        0.9488
+                    ],
+                    "DLC": [
+                        -0.0316,
+                        0.0545
+                    ],
+                    "Data0": [
+                        -0.0201,
+                        1.0279
+                    ],
+                    "Data1": [
+                        -0.0893,
+                        1.0619
+                    ],
+                    "Data2": [
+                        -0.0248,
+                        1.0259
+                    ],
+                    "Data3": [
+                        -0.0642,
+                        1.036
+                    ],
+                    "Data4": [
+                        -0.0134,
+                        1.0253
+                    ],
+                    "Data5": [
+                        -0.0377,
+                        1.0148
+                    ],
+                    "Data6": [
+                        -0.0457,
+                        1.0861
+                    ],
+                    "Data7": [
+                        -0.0775,
+                        1.0658
+                    ]
+                },
+                "rule_display": "If x1 in [-0.023, 1.058] AND x2 in [-0.0867, 0.9488] AND x3 in [-0.0316, 0.0545] AND x4 in [-0.0201, 1.0279] AND x5 in [-0.0893, 1.0619] AND x6 in [-0.0248, 1.0259] AND x7 in [-0.0642, 1.036] AND x8 in [-0.0134, 1.0253] AND x9 in [-0.0377, 1.0148] AND x10 in [-0.0457, 1.0861] AND x11 in [-0.0775, 1.0658] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 5,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0832,
+                        1.0296
+                    ],
+                    "Arbitration_ID": [
+                        -0.0336,
+                        0.9607
+                    ],
+                    "DLC": [
+                        -0.0517,
+                        0.0878
+                    ],
+                    "Data0": [
+                        -0.0594,
+                        1.0527
+                    ],
+                    "Data1": [
+                        -0.0551,
+                        1.0515
+                    ],
+                    "Data2": [
+                        -0.0731,
+                        1.0766
+                    ],
+                    "Data3": [
+                        -0.0151,
+                        1.0958
+                    ],
+                    "Data4": [
+                        -0.0617,
+                        1.0311
+                    ],
+                    "Data5": [
+                        -0.0856,
+                        1.0237
+                    ],
+                    "Data6": [
+                        -0.0797,
+                        1.036
+                    ],
+                    "Data7": [
+                        -0.0766,
+                        1.0362
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0832, 1.0296] AND x2 in [-0.0336, 0.9607] AND x3 in [-0.0517, 0.0878] AND x4 in [-0.0594, 1.0527] AND x5 in [-0.0551, 1.0515] AND x6 in [-0.0731, 1.0766] AND x7 in [-0.0151, 1.0958] AND x8 in [-0.0617, 1.0311] AND x9 in [-0.0856, 1.0237] AND x10 in [-0.0797, 1.036] AND x11 in [-0.0766, 1.0362] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 6,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0561,
+                        1.0672
+                    ],
+                    "Arbitration_ID": [
+                        -0.0702,
+                        0.976
+                    ],
+                    "DLC": [
+                        -0.0426,
+                        0.0191
+                    ],
+                    "Data0": [
+                        -0.0224,
+                        1.0814
+                    ],
+                    "Data1": [
+                        -0.0521,
+                        1.0376
+                    ],
+                    "Data2": [
+                        -0.0423,
+                        1.0538
+                    ],
+                    "Data3": [
+                        -0.0674,
+                        1.0119
+                    ],
+                    "Data4": [
+                        -0.025,
+                        1.065
+                    ],
+                    "Data5": [
+                        -0.0146,
+                        1.0782
+                    ],
+                    "Data6": [
+                        -0.0491,
+                        1.0871
+                    ],
+                    "Data7": [
+                        -0.0744,
+                        1.0705
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0561, 1.0672] AND x2 in [-0.0702, 0.976] AND x3 in [-0.0426, 0.0191] AND x4 in [-0.0224, 1.0814] AND x5 in [-0.0521, 1.0376] AND x6 in [-0.0423, 1.0538] AND x7 in [-0.0674, 1.0119] AND x8 in [-0.025, 1.065] AND x9 in [-0.0146, 1.0782] AND x10 in [-0.0491, 1.0871] AND x11 in [-0.0744, 1.0705] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 7,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0181,
+                        1.0616
+                    ],
+                    "Arbitration_ID": [
+                        -0.0313,
+                        0.9816
+                    ],
+                    "DLC": [
+                        -0.0345,
+                        0.0206
+                    ],
+                    "Data0": [
+                        -0.0377,
+                        1.0519
+                    ],
+                    "Data1": [
+                        -0.0551,
+                        1.0497
+                    ],
+                    "Data2": [
+                        -0.0422,
+                        1.0643
+                    ],
+                    "Data3": [
+                        -0.0592,
+                        1.0763
+                    ],
+                    "Data4": [
+                        -0.0566,
+                        1.0728
+                    ],
+                    "Data5": [
+                        -0.0589,
+                        1.0673
+                    ],
+                    "Data6": [
+                        -0.0402,
+                        1.0676
+                    ],
+                    "Data7": [
+                        -0.0195,
+                        1.021
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0181, 1.0616] AND x2 in [-0.0313, 0.9816] AND x3 in [-0.0345, 0.0206] AND x4 in [-0.0377, 1.0519] AND x5 in [-0.0551, 1.0497] AND x6 in [-0.0422, 1.0643] AND x7 in [-0.0592, 1.0763] AND x8 in [-0.0566, 1.0728] AND x9 in [-0.0589, 1.0673] AND x10 in [-0.0402, 1.0676] AND x11 in [-0.0195, 1.021] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 8,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0198,
+                        1.0465
+                    ],
+                    "Arbitration_ID": [
+                        -0.0626,
+                        0.9725
+                    ],
+                    "DLC": [
+                        -0.0384,
+                        0.088
+                    ],
+                    "Data0": [
+                        -0.0645,
+                        1.07
+                    ],
+                    "Data1": [
+                        -0.0232,
+                        1.0179
+                    ],
+                    "Data2": [
+                        -0.0118,
+                        1.0966
+                    ],
+                    "Data3": [
+                        -0.0724,
+                        1.0349
+                    ],
+                    "Data4": [
+                        -0.0315,
+                        1.0456
+                    ],
+                    "Data5": [
+                        -0.0386,
+                        1.0793
+                    ],
+                    "Data6": [
+                        -0.0317,
+                        1.0618
+                    ],
+                    "Data7": [
+                        -0.0525,
+                        1.0353
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0198, 1.0465] AND x2 in [-0.0626, 0.9725] AND x3 in [-0.0384, 0.088] AND x4 in [-0.0645, 1.07] AND x5 in [-0.0232, 1.0179] AND x6 in [-0.0118, 1.0966] AND x7 in [-0.0724, 1.0349] AND x8 in [-0.0315, 1.0456] AND x9 in [-0.0386, 1.0793] AND x10 in [-0.0317, 1.0618] AND x11 in [-0.0525, 1.0353] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 9,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0572,
+                        1.0815
+                    ],
+                    "Arbitration_ID": [
+                        -0.0883,
+                        0.9608
+                    ],
+                    "DLC": [
+                        -0.0861,
+                        0.039
+                    ],
+                    "Data0": [
+                        -0.0899,
+                        1.0974
+                    ],
+                    "Data1": [
+                        -0.0653,
+                        1.0861
+                    ],
+                    "Data2": [
+                        -0.0337,
+                        1.0726
+                    ],
+                    "Data3": [
+                        -0.0437,
+                        1.0393
+                    ],
+                    "Data4": [
+                        -0.0377,
+                        1.0941
+                    ],
+                    "Data5": [
+                        -0.093,
+                        1.0164
+                    ],
+                    "Data6": [
+                        -0.0436,
+                        1.0451
+                    ],
+                    "Data7": [
+                        -0.0358,
+                        1.0302
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0572, 1.0815] AND x2 in [-0.0883, 0.9608] AND x3 in [-0.0861, 0.039] AND x4 in [-0.0899, 1.0974] AND x5 in [-0.0653, 1.0861] AND x6 in [-0.0337, 1.0726] AND x7 in [-0.0437, 1.0393] AND x8 in [-0.0377, 1.0941] AND x9 in [-0.093, 1.0164] AND x10 in [-0.0436, 1.0451] AND x11 in [-0.0358, 1.0302] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 10,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0962,
+                        1.0229
+                    ],
+                    "Arbitration_ID": [
+                        -0.0295,
+                        0.9605
+                    ],
+                    "DLC": [
+                        -0.0593,
+                        0.0752
+                    ],
+                    "Data0": [
+                        -0.0577,
+                        1.078
+                    ],
+                    "Data1": [
+                        -0.0155,
+                        1.0875
+                    ],
+                    "Data2": [
+                        -0.0815,
+                        1.0265
+                    ],
+                    "Data3": [
+                        -0.0922,
+                        1.0979
+                    ],
+                    "Data4": [
+                        -0.0148,
+                        1.0483
+                    ],
+                    "Data5": [
+                        -0.0293,
+                        1.042
+                    ],
+                    "Data6": [
+                        -0.03,
+                        1.0512
+                    ],
+                    "Data7": [
+                        -0.0163,
+                        1.0588
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0962, 1.0229] AND x2 in [-0.0295, 0.9605] AND x3 in [-0.0593, 0.0752] AND x4 in [-0.0577, 1.078] AND x5 in [-0.0155, 1.0875] AND x6 in [-0.0815, 1.0265] AND x7 in [-0.0922, 1.0979] AND x8 in [-0.0148, 1.0483] AND x9 in [-0.0293, 1.042] AND x10 in [-0.03, 1.0512] AND x11 in [-0.0163, 1.0588] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 11,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0878,
+                        1.0969
+                    ],
+                    "Arbitration_ID": [
+                        -0.0594,
+                        0.9765
+                    ],
+                    "DLC": [
+                        -0.0453,
+                        0.0209
+                    ],
+                    "Data0": [
+                        -0.0856,
+                        1.0226
+                    ],
+                    "Data1": [
+                        -0.0599,
+                        1.0943
+                    ],
+                    "Data2": [
+                        -0.0427,
+                        1.0278
+                    ],
+                    "Data3": [
+                        -0.0558,
+                        1.0727
+                    ],
+                    "Data4": [
+                        -0.0805,
+                        1.0739
+                    ],
+                    "Data5": [
+                        -0.0693,
+                        1.0494
+                    ],
+                    "Data6": [
+                        -0.0558,
+                        1.0342
+                    ],
+                    "Data7": [
+                        -0.0902,
+                        1.0576
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0878, 1.0969] AND x2 in [-0.0594, 0.9765] AND x3 in [-0.0453, 0.0209] AND x4 in [-0.0856, 1.0226] AND x5 in [-0.0599, 1.0943] AND x6 in [-0.0427, 1.0278] AND x7 in [-0.0558, 1.0727] AND x8 in [-0.0805, 1.0739] AND x9 in [-0.0693, 1.0494] AND x10 in [-0.0558, 1.0342] AND x11 in [-0.0902, 1.0576] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 12,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0457,
+                        1.0213
+                    ],
+                    "Arbitration_ID": [
+                        -0.0505,
+                        1.0105
+                    ],
+                    "DLC": [
+                        -0.0576,
+                        0.0807
+                    ],
+                    "Data0": [
+                        -0.0467,
+                        1.0259
+                    ],
+                    "Data1": [
+                        -0.0282,
+                        1.0292
+                    ],
+                    "Data2": [
+                        -0.0201,
+                        1.0748
+                    ],
+                    "Data3": [
+                        -0.0703,
+                        1.0703
+                    ],
+                    "Data4": [
+                        -0.04,
+                        1.0618
+                    ],
+                    "Data5": [
+                        -0.0973,
+                        1.0819
+                    ],
+                    "Data6": [
+                        -0.0363,
+                        1.0667
+                    ],
+                    "Data7": [
+                        -0.0326,
+                        1.0805
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0457, 1.0213] AND x2 in [-0.0505, 1.0105] AND x3 in [-0.0576, 0.0807] AND x4 in [-0.0467, 1.0259] AND x5 in [-0.0282, 1.0292] AND x6 in [-0.0201, 1.0748] AND x7 in [-0.0703, 1.0703] AND x8 in [-0.04, 1.0618] AND x9 in [-0.0973, 1.0819] AND x10 in [-0.0363, 1.0667] AND x11 in [-0.0326, 1.0805] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 13,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0504,
+                        1.0963
+                    ],
+                    "Arbitration_ID": [
+                        -0.0152,
+                        0.9759
+                    ],
+                    "DLC": [
+                        -0.0358,
+                        0.0468
+                    ],
+                    "Data0": [
+                        -0.0183,
+                        1.0605
+                    ],
+                    "Data1": [
+                        -0.0686,
+                        1.0926
+                    ],
+                    "Data2": [
+                        -0.0192,
+                        1.0245
+                    ],
+                    "Data3": [
+                        -0.0564,
+                        1.057
+                    ],
+                    "Data4": [
+                        -0.0652,
+                        1.041
+                    ],
+                    "Data5": [
+                        -0.0385,
+                        1.0747
+                    ],
+                    "Data6": [
+                        -0.0748,
+                        1.0661
+                    ],
+                    "Data7": [
+                        -0.0256,
+                        1.039
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0504, 1.0963] AND x2 in [-0.0152, 0.9759] AND x3 in [-0.0358, 0.0468] AND x4 in [-0.0183, 1.0605] AND x5 in [-0.0686, 1.0926] AND x6 in [-0.0192, 1.0245] AND x7 in [-0.0564, 1.057] AND x8 in [-0.0652, 1.041] AND x9 in [-0.0385, 1.0747] AND x10 in [-0.0748, 1.0661] AND x11 in [-0.0256, 1.039] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 14,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0805,
+                        1.0306
+                    ],
+                    "Arbitration_ID": [
+                        -0.0519,
+                        0.9924
+                    ],
+                    "DLC": [
+                        -0.0488,
+                        0.0793
+                    ],
+                    "Data0": [
+                        -0.0608,
+                        1.014
+                    ],
+                    "Data1": [
+                        -0.0707,
+                        1.0896
+                    ],
+                    "Data2": [
+                        -0.0159,
+                        1.0158
+                    ],
+                    "Data3": [
+                        -0.0411,
+                        1.0477
+                    ],
+                    "Data4": [
+                        -0.0108,
+                        1.0105
+                    ],
+                    "Data5": [
+                        -0.0418,
+                        1.0125
+                    ],
+                    "Data6": [
+                        -0.0386,
+                        1.081
+                    ],
+                    "Data7": [
+                        -0.0591,
+                        1.0168
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0805, 1.0306] AND x2 in [-0.0519, 0.9924] AND x3 in [-0.0488, 0.0793] AND x4 in [-0.0608, 1.014] AND x5 in [-0.0707, 1.0896] AND x6 in [-0.0159, 1.0158] AND x7 in [-0.0411, 1.0477] AND x8 in [-0.0108, 1.0105] AND x9 in [-0.0418, 1.0125] AND x10 in [-0.0386, 1.081] AND x11 in [-0.0591, 1.0168] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 15,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0242,
+                        1.0742
+                    ],
+                    "Arbitration_ID": [
+                        -0.0819,
+                        0.9642
+                    ],
+                    "DLC": [
+                        -0.0409,
+                        0.0962
+                    ],
+                    "Data0": [
+                        -0.0919,
+                        1.0625
+                    ],
+                    "Data1": [
+                        -0.0972,
+                        1.0979
+                    ],
+                    "Data2": [
+                        -0.0586,
+                        1.0737
+                    ],
+                    "Data3": [
+                        -0.0668,
+                        1.0511
+                    ],
+                    "Data4": [
+                        -0.0522,
+                        1.0874
+                    ],
+                    "Data5": [
+                        -0.0747,
+                        1.0824
+                    ],
+                    "Data6": [
+                        -0.0369,
+                        1.0342
+                    ],
+                    "Data7": [
+                        -0.0569,
+                        1.0819
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0242, 1.0742] AND x2 in [-0.0819, 0.9642] AND x3 in [-0.0409, 0.0962] AND x4 in [-0.0919, 1.0625] AND x5 in [-0.0972, 1.0979] AND x6 in [-0.0586, 1.0737] AND x7 in [-0.0668, 1.0511] AND x8 in [-0.0522, 1.0874] AND x9 in [-0.0747, 1.0824] AND x10 in [-0.0369, 1.0342] AND x11 in [-0.0569, 1.0819] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 16,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0431,
+                        1.0619
+                    ],
+                    "Arbitration_ID": [
+                        -0.0331,
+                        0.9919
+                    ],
+                    "DLC": [
+                        -0.0364,
+                        0.0977
+                    ],
+                    "Data0": [
+                        -0.0676,
+                        1.0682
+                    ],
+                    "Data1": [
+                        -0.0883,
+                        1.0995
+                    ],
+                    "Data2": [
+                        -0.0217,
+                        1.0385
+                    ],
+                    "Data3": [
+                        -0.0742,
+                        1.0792
+                    ],
+                    "Data4": [
+                        -0.0724,
+                        1.0827
+                    ],
+                    "Data5": [
+                        -0.0527,
+                        1.0422
+                    ],
+                    "Data6": [
+                        -0.0614,
+                        1.0625
+                    ],
+                    "Data7": [
+                        -0.0383,
+                        1.0453
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0431, 1.0619] AND x2 in [-0.0331, 0.9919] AND x3 in [-0.0364, 0.0977] AND x4 in [-0.0676, 1.0682] AND x5 in [-0.0883, 1.0995] AND x6 in [-0.0217, 1.0385] AND x7 in [-0.0742, 1.0792] AND x8 in [-0.0724, 1.0827] AND x9 in [-0.0527, 1.0422] AND x10 in [-0.0614, 1.0625] AND x11 in [-0.0383, 1.0453] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 17,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0848,
+                        1.0331
+                    ],
+                    "Arbitration_ID": [
+                        -0.0502,
+                        0.9839
+                    ],
+                    "DLC": [
+                        -0.0765,
+                        0.0565
+                    ],
+                    "Data0": [
+                        -0.0697,
+                        1.0492
+                    ],
+                    "Data1": [
+                        -0.0937,
+                        1.0563
+                    ],
+                    "Data2": [
+                        -0.0682,
+                        1.0781
+                    ],
+                    "Data3": [
+                        -0.0352,
+                        1.0864
+                    ],
+                    "Data4": [
+                        -0.0929,
+                        1.0511
+                    ],
+                    "Data5": [
+                        -0.0684,
+                        1.0298
+                    ],
+                    "Data6": [
+                        -0.0171,
+                        1.0321
+                    ],
+                    "Data7": [
+                        -0.093,
+                        1.0653
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0848, 1.0331] AND x2 in [-0.0502, 0.9839] AND x3 in [-0.0765, 0.0565] AND x4 in [-0.0697, 1.0492] AND x5 in [-0.0937, 1.0563] AND x6 in [-0.0682, 1.0781] AND x7 in [-0.0352, 1.0864] AND x8 in [-0.0929, 1.0511] AND x9 in [-0.0684, 1.0298] AND x10 in [-0.0171, 1.0321] AND x11 in [-0.093, 1.0653] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 18,
+                "conditions": {
+                    "Timestamp": [
+                        -0.095,
+                        1.0991
+                    ],
+                    "Arbitration_ID": [
+                        -0.0977,
+                        1.0275
+                    ],
+                    "DLC": [
+                        -0.0777,
+                        0.011
+                    ],
+                    "Data0": [
+                        -0.0901,
+                        1.0201
+                    ],
+                    "Data1": [
+                        -0.0923,
+                        1.0286
+                    ],
+                    "Data2": [
+                        -0.0737,
+                        1.0518
+                    ],
+                    "Data3": [
+                        -0.0565,
+                        1.0436
+                    ],
+                    "Data4": [
+                        -0.0845,
+                        1.0654
+                    ],
+                    "Data5": [
+                        -0.0108,
+                        1.0228
+                    ],
+                    "Data6": [
+                        -0.0177,
+                        1.0198
+                    ],
+                    "Data7": [
+                        -0.0876,
+                        1.027
+                    ]
+                },
+                "rule_display": "If x1 in [-0.095, 1.0991] AND x2 in [-0.0977, 1.0275] AND x3 in [-0.0777, 0.011] AND x4 in [-0.0901, 1.0201] AND x5 in [-0.0923, 1.0286] AND x6 in [-0.0737, 1.0518] AND x7 in [-0.0565, 1.0436] AND x8 in [-0.0845, 1.0654] AND x9 in [-0.0108, 1.0228] AND x10 in [-0.0177, 1.0198] AND x11 in [-0.0876, 1.027] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 19,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0643,
+                        1.053
+                    ],
+                    "Arbitration_ID": [
+                        -0.028,
+                        0.9741
+                    ],
+                    "DLC": [
+                        -0.093,
+                        0.0338
+                    ],
+                    "Data0": [
+                        -0.0145,
+                        1.0607
+                    ],
+                    "Data1": [
+                        -0.0397,
+                        1.0218
+                    ],
+                    "Data2": [
+                        -0.0541,
+                        1.0171
+                    ],
+                    "Data3": [
+                        -0.0348,
+                        1.0591
+                    ],
+                    "Data4": [
+                        -0.0989,
+                        1.0239
+                    ],
+                    "Data5": [
+                        -0.0743,
+                        1.0351
+                    ],
+                    "Data6": [
+                        -0.0143,
+                        1.0136
+                    ],
+                    "Data7": [
+                        -0.0324,
+                        1.0843
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0643, 1.053] AND x2 in [-0.028, 0.9741] AND x3 in [-0.093, 0.0338] AND x4 in [-0.0145, 1.0607] AND x5 in [-0.0397, 1.0218] AND x6 in [-0.0541, 1.0171] AND x7 in [-0.0348, 1.0591] AND x8 in [-0.0989, 1.0239] AND x9 in [-0.0743, 1.0351] AND x10 in [-0.0143, 1.0136] AND x11 in [-0.0324, 1.0843] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 20,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0306,
+                        1.0629
+                    ],
+                    "Arbitration_ID": [
+                        -0.0944,
+                        1.0022
+                    ],
+                    "DLC": [
+                        -0.0674,
+                        0.0332
+                    ],
+                    "Data0": [
+                        -0.0302,
+                        1.0388
+                    ],
+                    "Data1": [
+                        -0.0707,
+                        1.0569
+                    ],
+                    "Data2": [
+                        -0.0294,
+                        1.0528
+                    ],
+                    "Data3": [
+                        -0.0227,
+                        1.0417
+                    ],
+                    "Data4": [
+                        -0.053,
+                        1.0904
+                    ],
+                    "Data5": [
+                        -0.0402,
+                        1.032
+                    ],
+                    "Data6": [
+                        -0.0489,
+                        1.0768
+                    ],
+                    "Data7": [
+                        -0.0632,
+                        1.0662
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0306, 1.0629] AND x2 in [-0.0944, 1.0022] AND x3 in [-0.0674, 0.0332] AND x4 in [-0.0302, 1.0388] AND x5 in [-0.0707, 1.0569] AND x6 in [-0.0294, 1.0528] AND x7 in [-0.0227, 1.0417] AND x8 in [-0.053, 1.0904] AND x9 in [-0.0402, 1.032] AND x10 in [-0.0489, 1.0768] AND x11 in [-0.0632, 1.0662] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 21,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0388,
+                        1.0444
+                    ],
+                    "Arbitration_ID": [
+                        -0.0725,
+                        1.0115
+                    ],
+                    "DLC": [
+                        -0.0347,
+                        0.048
+                    ],
+                    "Data0": [
+                        -0.0676,
+                        1.0823
+                    ],
+                    "Data1": [
+                        -0.0466,
+                        1.0908
+                    ],
+                    "Data2": [
+                        -0.0661,
+                        1.0478
+                    ],
+                    "Data3": [
+                        -0.039,
+                        1.0239
+                    ],
+                    "Data4": [
+                        -0.0442,
+                        1.0943
+                    ],
+                    "Data5": [
+                        -0.022,
+                        1.0653
+                    ],
+                    "Data6": [
+                        -0.0297,
+                        1.0231
+                    ],
+                    "Data7": [
+                        -0.0356,
+                        1.0273
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0388, 1.0444] AND x2 in [-0.0725, 1.0115] AND x3 in [-0.0347, 0.048] AND x4 in [-0.0676, 1.0823] AND x5 in [-0.0466, 1.0908] AND x6 in [-0.0661, 1.0478] AND x7 in [-0.039, 1.0239] AND x8 in [-0.0442, 1.0943] AND x9 in [-0.022, 1.0653] AND x10 in [-0.0297, 1.0231] AND x11 in [-0.0356, 1.0273] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 22,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0654,
+                        1.0847
+                    ],
+                    "Arbitration_ID": [
+                        -0.031,
+                        1.0148
+                    ],
+                    "DLC": [
+                        -0.0872,
+                        0.0408
+                    ],
+                    "Data0": [
+                        -0.034,
+                        1.0142
+                    ],
+                    "Data1": [
+                        -0.0626,
+                        1.0664
+                    ],
+                    "Data2": [
+                        -0.0617,
+                        1.0749
+                    ],
+                    "Data3": [
+                        -0.0833,
+                        1.0248
+                    ],
+                    "Data4": [
+                        -0.0968,
+                        1.056
+                    ],
+                    "Data5": [
+                        -0.0974,
+                        1.0389
+                    ],
+                    "Data6": [
+                        -0.0684,
+                        1.0232
+                    ],
+                    "Data7": [
+                        -0.0133,
+                        1.0113
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0654, 1.0847] AND x2 in [-0.031, 1.0148] AND x3 in [-0.0872, 0.0408] AND x4 in [-0.034, 1.0142] AND x5 in [-0.0626, 1.0664] AND x6 in [-0.0617, 1.0749] AND x7 in [-0.0833, 1.0248] AND x8 in [-0.0968, 1.056] AND x9 in [-0.0974, 1.0389] AND x10 in [-0.0684, 1.0232] AND x11 in [-0.0133, 1.0113] THEN y <= 0 (Non-Attack Behavior)",
+                "result": "y <= 0 (Non-Attack Behavior)",
+                "behavior": "Non-Attack"
+            },
+            {
+                "cluster": 23,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0693,
+                        1.0225
+                    ],
+                    "Arbitration_ID": [
+                        -0.0917,
+                        1.0258
+                    ],
+                    "DLC": [
+                        -0.0686,
+                        0.0374
+                    ],
+                    "Data0": [
+                        -0.0957,
+                        1.0885
+                    ],
+                    "Data1": [
+                        -0.0792,
+                        1.0688
+                    ],
+                    "Data2": [
+                        -0.0518,
+                        1.0827
+                    ],
+                    "Data3": [
+                        -0.0689,
+                        1.0701
+                    ],
+                    "Data4": [
+                        -0.0631,
+                        1.0304
+                    ],
+                    "Data5": [
+                        -0.0481,
+                        1.05
+                    ],
+                    "Data6": [
+                        -0.0354,
+                        1.062
+                    ],
+                    "Data7": [
+                        -0.0353,
+                        1.094
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0693, 1.0225] AND x2 in [-0.0917, 1.0258] AND x3 in [-0.0686, 0.0374] AND x4 in [-0.0957, 1.0885] AND x5 in [-0.0792, 1.0688] AND x6 in [-0.0518, 1.0827] AND x7 in [-0.0689, 1.0701] AND x8 in [-0.0631, 1.0304] AND x9 in [-0.0481, 1.05] AND x10 in [-0.0354, 1.062] AND x11 in [-0.0353, 1.094] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 24,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0204,
+                        1.0892
+                    ],
+                    "Arbitration_ID": [
+                        -0.0224,
+                        0.9831
+                    ],
+                    "DLC": [
+                        -0.0172,
+                        0.029
+                    ],
+                    "Data0": [
+                        -0.0649,
+                        1.0986
+                    ],
+                    "Data1": [
+                        -0.0787,
+                        1.0725
+                    ],
+                    "Data2": [
+                        -0.0365,
+                        1.0861
+                    ],
+                    "Data3": [
+                        -0.0219,
+                        1.0366
+                    ],
+                    "Data4": [
+                        -0.0122,
+                        1.0719
+                    ],
+                    "Data5": [
+                        -0.0984,
+                        1.0468
+                    ],
+                    "Data6": [
+                        -0.0698,
+                        1.0744
+                    ],
+                    "Data7": [
+                        -0.0863,
+                        1.0111
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0204, 1.0892] AND x2 in [-0.0224, 0.9831] AND x3 in [-0.0172, 0.029] AND x4 in [-0.0649, 1.0986] AND x5 in [-0.0787, 1.0725] AND x6 in [-0.0365, 1.0861] AND x7 in [-0.0219, 1.0366] AND x8 in [-0.0122, 1.0719] AND x9 in [-0.0984, 1.0468] AND x10 in [-0.0698, 1.0744] AND x11 in [-0.0863, 1.0111] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            },
+            {
+                "cluster": 25,
+                "conditions": {
+                    "Timestamp": [
+                        -0.0451,
+                        1.0675
+                    ],
+                    "Arbitration_ID": [
+                        -0.0778,
+                        0.9909
+                    ],
+                    "DLC": [
+                        -0.0924,
+                        0.0618
+                    ],
+                    "Data0": [
+                        -0.0129,
+                        1.0467
+                    ],
+                    "Data1": [
+                        -0.0671,
+                        1.0134
+                    ],
+                    "Data2": [
+                        -0.0181,
+                        1.0668
+                    ],
+                    "Data3": [
+                        -0.0781,
+                        1.098
+                    ],
+                    "Data4": [
+                        -0.0101,
+                        1.0868
+                    ],
+                    "Data5": [
+                        -0.0915,
+                        1.0859
+                    ],
+                    "Data6": [
+                        -0.0699,
+                        1.0253
+                    ],
+                    "Data7": [
+                        -0.0361,
+                        1.0308
+                    ]
+                },
+                "rule_display": "If x1 in [-0.0451, 1.0675] AND x2 in [-0.0778, 0.9909] AND x3 in [-0.0924, 0.0618] AND x4 in [-0.0129, 1.0467] AND x5 in [-0.0671, 1.0134] AND x6 in [-0.0181, 1.0668] AND x7 in [-0.0781, 1.098] AND x8 in [-0.0101, 1.0868] AND x9 in [-0.0915, 1.0859] AND x10 in [-0.0699, 1.0253] AND x11 in [-0.0361, 1.0308] THEN y > 0 (Potential Attack Behavior)",
+                "result": "y > 0 (Potential Attack Behavior)",
+                "behavior": "Attack"
+            }
+        ]
+    }
+}

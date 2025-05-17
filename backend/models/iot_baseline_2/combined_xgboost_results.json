@@ -1,0 +1,120 @@
+{
+    "scene": "物联网",
+    "dataset": "medbiot",
+    "models": {
+        "Random Forest": {
+            "without_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            },
+            "with_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            }
+        },
+        "XGBoost": {
+            "without_rules": {
+                "Accuracy": 0.8081395348837209,
+                "precision": 0.8450424513684032,
+                "recall": 0.8081395348837209,
+                "f1-score": 0.8028686458452607,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 1774,
+                        "TN": 2674,
+                        "FP": 78,
+                        "FN": 978
+                    },
+                    "Class 1": {
+                        "TP": 2674,
+                        "TN": 1774,
+                        "FP": 978,
+                        "FN": 78
+                    }
+                },
+                "Total Execution Time": "0.00 seconds"
+            },
+            "with_rules": {
+                "Accuracy": 0.9998183139534884,
+                "precision": 0.9998183799491465,
+                "recall": 0.9998183139534884,
+                "f1-score": 0.999818313947491,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 2751,
+                        "TN": 2752,
+                        "FP": 0,
+                        "FN": 1
+                    },
+                    "Class 1": {
+                        "TP": 2752,
+                        "TN": 2751,
+                        "FP": 1,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0.00 seconds"
+            }
+        }
+    },
+    "positive_negative_counts": {
+        "positive_samples": {
+            "Random Forest": {
+                "without_rules": 0,
+                "with_rules": 0
+            },
+            "XGBoost": {
+                "without_rules": 2674,
+                "with_rules": 2752
+            }
+        },
+        "negative_samples": {
+            "Random Forest": {
+                "without_rules": 0,
+                "with_rules": 0
+            },
+            "XGBoost": {
+                "without_rules": 2674,
+                "with_rules": 2752
+            }
+        }
+    }
+}

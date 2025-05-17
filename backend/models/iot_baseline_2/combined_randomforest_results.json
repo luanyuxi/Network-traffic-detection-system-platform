@@ -1,0 +1,120 @@
+{
+    "scene": "加密流",
+    "dataset": "2020",
+    "models": {
+        "Random Forest": {
+            "without_rules": {
+                "Accuracy": 0.7160247093023255,
+                "precision": 0.7995195243025138,
+                "recall": 0.7160247093023255,
+                "f1-score": 0.6947517683387605,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 1244,
+                        "TN": 2697,
+                        "FP": 55,
+                        "FN": 1508
+                    },
+                    "Class 1": {
+                        "TP": 2697,
+                        "TN": 1244,
+                        "FP": 1508,
+                        "FN": 55
+                    }
+                },
+                "Total Execution Time": "0.12 seconds"
+            },
+            "with_rules": {
+                "Accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 2752,
+                        "TN": 2752,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 2752,
+                        "TN": 2752,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0.07 seconds"
+            }
+        },
+        "XGBoost": {
+            "without_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            },
+            "with_rules": {
+                "Classification Report": {
+                    "Accuracy": 0.0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0
+                },
+                "Class Metrics": {
+                    "Class 0": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    },
+                    "Class 1": {
+                        "TP": 0,
+                        "TN": 0,
+                        "FP": 0,
+                        "FN": 0
+                    }
+                },
+                "Total Execution Time": "0 seconds"
+            }
+        }
+    },
+    "positive_negative_counts": {
+        "positive_samples": {
+            "Random Forest": {
+                "without_rules": 2697,
+                "with_rules": 2752
+            },
+            "XGBoost": {
+                "without_rules": 0,
+                "with_rules": 0
+            }
+        },
+        "negative_samples": {
+            "Random Forest": {
+                "without_rules": 2697,
+                "with_rules": 2752
+            },
+            "XGBoost": {
+                "without_rules": 0,
+                "with_rules": 0
+            }
+        }
+    }
+}
