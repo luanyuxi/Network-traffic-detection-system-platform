@@ -1,1 +1,2 @@
 C:/Users/apple/Pictures/Saved[[:space:]]Pictures/*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
