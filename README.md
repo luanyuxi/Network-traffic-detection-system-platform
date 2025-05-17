@@ -86,4 +86,5 @@ Now, you can visit the application at [http://localhost:3000](http://localhost:3
 
 This version gives a detailed and structured overview of how to clone the repository, install dependencies for both the frontend and backend, and run the application locally.
 ```
-* **Platform display interface**:https://youtu.be/CtksaMXGYHg
+## **Platform display interface**
+https://youtu.be/CtksaMXGYHg
